@@ -1,0 +1,30 @@
+{
+  "name": "reactskelleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcrmbmp812/Reactskelleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devcrmbmp812/Reactskelleton/issues"
+  },
+  "homepage": "https://github.com/devcrmbmp812/Reactskelleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "watchify": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
